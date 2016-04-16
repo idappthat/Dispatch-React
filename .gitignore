@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 node_modules
 npm-debug.log
+
 .DS_Store
 dist
-=======
 # Logs
 logs
 *.log
@@ -37,4 +36,3 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
->>>>>>> cd357523f80f7bc3ff847b8bb35bb9fca1084cbc
