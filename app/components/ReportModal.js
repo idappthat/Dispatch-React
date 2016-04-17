@@ -65,6 +65,15 @@ export default class ReportModal extends Component {
           <div className="input-group">
             <textarea id="dialog-box" className="dialog-box" name="dialog"></textarea>
           </div>
+          <div className="input-group">
+            <input id="dialog-box" className="two" name="dialog" value="Location"></input>
+            <input id="dialog-box" className="two" name="dialog" value="Coordinates"></input>
+          </div>
+          <div className="input-group">
+            <button>Police</button>
+            <button>Fire</button>
+            <button>Medic</button>
+          </div>
         </Modal.Body>
       </Modal>
     </div>

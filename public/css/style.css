@@ -151,7 +151,8 @@ h3 {
   height: 100px;
   width: 500px;
   outline: none;
-  object-fit: contain;
+  box-shadow: none;
+  border: none;
   border-radius: 3px;
   background-color: #f7f7f7;
 }
@@ -159,10 +160,37 @@ h3 {
 .modal-content .input-group {
   margin: 0 auto 10px auto;
   text-align: center;
+  width: 100%;
 }
 
-.modal-content .input-group .input {
-  width: 48%;
+.modal-content .input-group input.two {
+  width: 240px;
+  padding: 5px;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  outline: none;
+  box-shadow: none;
+  padding: 10px;
+  border: none;
+}
+
+.modal-content .input-group button {
+  width: 160px;
+  padding: 5px;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+.modal-content .input-group button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.modal-content .input-group input:first-child {
+  margin-right: 15px;
 }
 
 .modal-content .input-group .input::first-child {
