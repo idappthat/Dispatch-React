@@ -121,3 +121,60 @@ h3 {
 .activity-item img.img-middle {
   margin: 0 8%;
 }
+
+.modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  width: 600px;
+}
+
+.modal-header, .modal-footer {
+  border: none;
+}
+
+.modal-content {
+  border-radius: 0;
+  text-align: center;
+  display: relative;
+}
+
+.modal-content .emergency-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-content .dialog-box {
+  display: block;
+  margin: auto;
+  height: 100px;
+  width: 500px;
+  outline: none;
+  object-fit: contain;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+}
+
+.modal-content .input-group {
+  margin: 0 auto 10px auto;
+  text-align: center;
+}
+
+.modal-content .input-group .input {
+  width: 48%;
+}
+
+.modal-content .input-group .input::first-child {
+  margin-right: 5px;
+}
+
+.modal-header {
+  padding: 0;
+}
+
+.modal-header .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}

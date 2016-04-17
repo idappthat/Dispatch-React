@@ -12,17 +12,8 @@ export default class Dashboard extends Component {
     this.state = {
       showModal: false
     };
-
-    console.log(this.state);
   }
 
-  close() {
-    this.setState({ showModal: false });
-  }
-
-  open() {
-    this.setState({ showModal: true });
-  }
 
   render() {
     return (
@@ -36,7 +27,7 @@ export default class Dashboard extends Component {
             </Col>
 
             <Col md={3} className="activity">
-              <ActivityLog onItemClick={this.handleActivityClick} />
+              <ActivityLog onItemClick={this.handleActivityClick.bind(this, this.state.showModal)} />
             </Col>
           </Row>
         </Grid>
@@ -44,7 +35,8 @@ export default class Dashboard extends Component {
     );
   }
 
-  handleActivityClick(id, e) {
-    console.log(id + " clicked");
+  handleActivityClick(state, id) {
+    this.setState({showModal: true});
+    console.log(id);
   }
 }
