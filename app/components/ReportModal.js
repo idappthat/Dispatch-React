@@ -70,9 +70,9 @@ export default class ReportModal extends Component {
             <input id="dialog-box" className="two" name="dialog" value="Coordinates"></input>
           </div>
           <div className="input-group">
-            <button>Police</button>
-            <button>Fire</button>
-            <button>Medic</button>
+            <button><img src={"/public/images/ic_police.png"} /> Police</button>
+            <button><img src={"/public/images/ic_fire_truck.png"} /> Fire</button>
+            <button><img src={"/public/images/ic_ambulance.png"} /> Medic</button>
           </div>
         </Modal.Body>
       </Modal>

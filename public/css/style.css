@@ -185,6 +185,14 @@ h3 {
   border: none;
 }
 
+.modal-content .input-group button.selected {
+  border: solid 2px #d0021b;
+}
+
+.modal-content .input-group button img{
+  height: 30px;
+}
+
 .modal-content .input-group button:not(:last-child) {
   margin-right: 10px;
 }
