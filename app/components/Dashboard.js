@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'react-bootstrap'; 
+import { Grid, Row, Col } from 'react-bootstrap';
 
-import Header from './Header'; 
+import Header from './Header';
 import ActivityLog from './ActivityLog';
 import Map from './Map';
 

@@ -29,6 +29,7 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 2.4px;
   font-size: 12px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 .btn-success {
@@ -47,8 +48,7 @@ h3 {
 }
 
 .navbar {
-  width
-  height: 50px;
+  height: 100px;
   margin-bottom: 0;
   position: absolute;
   left: 0;
@@ -106,6 +106,7 @@ h3 {
   border-radius: 3px;
   background-color: #FFF;
   box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.07);
+  cursor: pointer
 }
 
 .activity-item > div {

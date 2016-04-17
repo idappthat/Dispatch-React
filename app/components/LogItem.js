@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { Row, Col, Button } from 'react-bootstrap'; 
+import { Row, Col, Button } from 'react-bootstrap';
+
+import ReportModal from './ReportModal';
 
 export default class LogItem extends Component {
   static defaultProps = {
@@ -38,9 +40,13 @@ export default class LogItem extends Component {
     }
   }
 
+  handleClick(props) {
+    let reportModal = new ReportModal(props)
+  }
+
   render() {
     return (
-      <Row className="activity-item">
+      <Row onClick={this.handleClick.bind(this, this.props)} className="activity-item">
         <h5>Incident at {this.props.location}</h5>
         <Col md={7}>
           <img src={"/public/images/ic_incident.png"} />
