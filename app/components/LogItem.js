@@ -40,13 +40,9 @@ export default class LogItem extends Component {
     }
   }
 
-  handleClick(props) {
-
-  }
-
   render() {
     return (
-      <Row onClick={this.handleClick.bind(this, this.props)} className="activity-item">
+      <Row onClick={this.props.onClick.bind(null, this.props.id)} className="activity-item">
         <h5>Incident at {this.props.location}</h5>
         <Col md={7}>
           <img src={"/public/images/ic_incident.png"} />

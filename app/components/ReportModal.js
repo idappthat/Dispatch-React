@@ -3,22 +3,13 @@ import { Button, Modal } from 'react-bootstrap';
 
 export default class ReportModal extends Component {
   constructor(props) {
-    super(props)
-    this.state = {showModal: false};
-  }
-
-  close() {
-    this.state = {showModal: false};
-  }
-
-  open() {
-    this.state = {showModal: true};
+    super(props);
   }
 
   render() {
     return (
     <div>
-      <Modal show={this.state.showModal} onHide={this.close}>
+      <Modal show={this.props.show}>
         <Modal.Header closeButton>
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
