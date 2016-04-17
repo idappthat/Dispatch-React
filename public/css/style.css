@@ -214,3 +214,26 @@ h3 {
   right: 10px;
   top: 10px;
 }
+
+.activity-item.big-row {
+  text-align: center;
+}
+
+.incident-col img {
+  height: 40px;
+  width: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.incident-desc {
+  line-height: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  color: #bfbfbf;
+}
+
+.incident-cta {
+  text-align: center;
+}
