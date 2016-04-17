@@ -1,0 +1,122 @@
+body, html, #root, #root > div {
+  height: 100%;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 1.4px;
+}
+
+h3 {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.btn {
+  border-radius: 2.4px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  font-size: 12px;
+}
+
+.btn-success {
+  background: #7ed321;
+  border-color: #7ed321;
+}
+
+.btn-warning {
+  background: #f8cf1c;
+  border-color: #f8cf1c;
+}
+
+.btn-danger {
+  background: #d0021b;
+  border-color: #d0021b;
+}
+
+.navbar {
+  width
+  height: 50px;
+  margin-bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  background: #fff;
+  border-radius: 0;
+  border: none;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.07);
+}
+
+.navbar-default .navbar-nav>li>a {
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #40dcc2;
+}
+
+.navbar > .container {
+  width: 100%;
+}
+
+.dashboard {
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 50px 0 0 0; /*set left/right padding according to needs*/
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.dashboard > .row {
+  height: 100%;
+  display: table-row;
+}
+
+.map, .activity {
+  display: table-cell;
+  float: none;
+}
+
+.map {
+  padding: 0;
+}
+
+.activity {
+  background: #fafafa;
+  padding: 15px 15px 0;
+  margin: 0;
+}
+
+.activity-item {
+  margin: 0 0 15px;
+  padding: 0 10px 10px;
+  width: 100%;
+  border-radius: 3px;
+  background-color: #FFF;
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.07);
+}
+
+.activity-item > div {
+  padding: 0;
+}
+
+.activity-item img {
+  display: inline-block;
+  width: 18%;
+}
+
+.activity-item img.img-middle {
+  margin: 0 8%;
+}

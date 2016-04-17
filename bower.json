@@ -1,0 +1,23 @@
+{
+  "name": "dispatch",
+  "description": "dispatch",
+  "main": "",
+  "authors": [
+    "cameron"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "none"
+  ],
+  "homepage": "https://github.com/idappthat/Dispatch-React",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
