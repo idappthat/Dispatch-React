@@ -6,7 +6,7 @@ import ReportModal from './ReportModal';
 export default class LogItem extends Component {
   static defaultProps = {
     btnStyle: 'success',
-    type: 'police;'
+    type: 'police'
   };
 
   constructor(props) {
@@ -41,7 +41,7 @@ export default class LogItem extends Component {
   }
 
   handleClick(props) {
-    let reportModal = new ReportModal(props)
+
   }
 
   render() {
